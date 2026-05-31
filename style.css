@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     box-sizing: border-box;
+    margin: 0;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-and-background {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40vw;
+    background-image: url("./images/blurred-tv-screen-background.jpg");
+    background-position: center;
+}
+
+.contrast-area {
+    background-color: rgba(7, 7, 7, 0.5);
+}
+
+.logo-text-header {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
