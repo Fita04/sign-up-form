@@ -68,7 +68,7 @@ body {
 
 .sign-up-form {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     width: 60rem;
 }
 
@@ -80,6 +80,17 @@ legend {
     font-size: 2rem;
 }
 
-.form-row {
+.form-column {
     font-size: 1.4rem;
+}
+
+.input-field-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+}
+
+.input-field {
+    display: flex;
+    flex-flow: column wrap;
 }
