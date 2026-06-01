@@ -72,7 +72,7 @@ body {
 .sign-up-form {
     display: flex;
     flex-flow: column wrap;
-    width: 60rem;
+    width: 98%;
     position: absolute;
     left: 1rem;
 }
@@ -88,14 +88,15 @@ legend {
 .form-row {
     display: flex;
     flex-flow: row wrap;
-    font-size: 1.4rem;
-    gap: 1rem;
+    font-size: 1.2rem;
+    gap: 2rem;
 }
 
 .input-field-container {
     display: flex;
     flex-flow: row wrap;
     gap: 1.5rem;
+    color: rgb(119, 122, 122);
 }
 
 .input-field {
@@ -108,10 +109,26 @@ input {
     width: 15rem;
 }
 
+input:focus {
+    outline: none;
+    border: solid rgb(77, 118, 233) 1px;
+    box-shadow: 0 10px 20px rgb(180, 178, 178);
+}
+
+input:user-invalid{
+    border: solid rgb(235, 30, 30) 1px;
+}
+
+.input-field.right {
+    margin-left: 3rem;
+}
+
 button {
     padding: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 700;
-    margin: 1em 0 2em 1em;
+    margin: 1.78em 0 2em 1em;
+    background-color:   rgb(226, 212, 151);
 }
 
 .log-in {
@@ -121,4 +138,9 @@ button {
 .log-in-link {
     color: rgb(233, 54, 144);
     font-weight: 600;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-weight: 550;
 }
