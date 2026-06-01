@@ -76,6 +76,7 @@ body {
     position: absolute;
     left: 0rem;
     padding: 1rem;
+    margin: 5rem 0 0 0;
 }
 
 fieldset {
@@ -128,12 +129,12 @@ button {
     padding: 0.7rem;
     font-size: 0.9rem;
     font-weight: 700;
-    margin: 1.78rem 0 2rem 0.9rem;
+    margin: 2rem 0 0.5rem 0.9rem;
     background-color:   rgb(226, 212, 151);
 }
 
 .log-in {
-   margin-left: 0.9rem;
+   margin: 0.5rem 0 0 0.9rem;
 }
 
 .log-in-link {
