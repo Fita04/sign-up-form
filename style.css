@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --playwrite: "Playwrite GB J", sans-serif;
+    --work-sans: "Work Sans", sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: var(--work-sans);
 }
 
 body {
@@ -21,17 +27,26 @@ body {
     width: 40vw;
     background-image: url("./images/blurred-tv-screen-background.jpg");
     background-position: center;
+    position: relative;
 }
 
-.contrast-area {
-    background-color: rgba(7, 7, 7, 0.5);
-}
 
 .logo-text-header {
-  font-family: "Playwrite GB J", cursive;
+  font-family: var(--playwrite);
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: italic;
-  font-size: 50px;
+  font-size: 10rem;
+  position: absolute;
 }
 
+.logo-text-header + p {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.sign-up-form {
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+}
