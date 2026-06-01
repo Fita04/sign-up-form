@@ -38,7 +38,7 @@ body {
   font-style: italic;
   font-size: 10rem;
   position: absolute;
-  top: 6rem;
+  top: 3rem;
 }
 
 .logo-text-header + p {
@@ -64,12 +64,17 @@ body {
     width: 50rem;
     font-size: 1.9rem;
     font-weight: 500;
+    position: absolute;
+    top: 6rem;
+    left: 1.5rem;
 }
 
 .sign-up-form {
     display: flex;
     flex-flow: column wrap;
     width: 60rem;
+    position: absolute;
+    left: 1rem;
 }
 
 fieldset {
@@ -80,8 +85,11 @@ legend {
     font-size: 2rem;
 }
 
-.form-column {
+.form-row {
+    display: flex;
+    flex-flow: row wrap;
     font-size: 1.4rem;
+    gap: 1rem;
 }
 
 .input-field-container {
@@ -93,4 +101,24 @@ legend {
 .input-field {
     display: flex;
     flex-flow: column wrap;
+}
+
+input {
+    padding: 0.5em;
+    width: 15rem;
+}
+
+button {
+    padding: 0.7rem;
+    font-weight: 700;
+    margin: 1em 0 2em 1em;
+}
+
+.log-in {
+   margin-left: 1em;
+}
+
+.log-in-link {
+    color: rgb(233, 54, 144);
+    font-weight: 600;
 }
