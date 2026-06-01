@@ -66,10 +66,20 @@ body {
     font-weight: 500;
 }
 
+.sign-up-form {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60rem;
+}
+
 fieldset {
     border: 0;
 }
 
 legend {
     font-size: 2rem;
+}
+
+.form-row {
+    font-size: 1.4rem;
 }
